@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Suite" parallel="tests" thread-count="5">
+ <listeners><listener class-name="listeners.TestNGListeners"></listener></listeners>
+  <test  name="Test on Chrome" parallel="classes">
+  <parameter name ="browserName" value ="chrome"> </parameter>
+    <classes>
+      <class name="listeners.TestNGFeaturesDemo"/>
+    </classes>
+  </test> <!-- Test -->
+  
+       
+  
+  
+</suite> <!-- Suite -->

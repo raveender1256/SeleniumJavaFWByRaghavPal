@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Suite]" parallel="tests">
+  <listeners>
+    <listener class-name="listeners.TestNGListeners"/>
+  </listeners>
+  <test thread-count="5" name="Test on Chrome(failed)" parallel="classes">
+    <parameter name="browserName" value="chrome"/>
+    <classes>
+      <class name="listeners.TestNGFeaturesDemo">
+        <methods>
+          <include name="Test3"/>
+          <include name="teardown"/>
+          <include name="Test2"/>
+          <include name="TestSetups"/>
+        </methods>
+      </class> <!-- listeners.TestNGFeaturesDemo -->
+    </classes>
+  </test> <!-- Test on Chrome(failed) -->
+  <test thread-count="5" name="Test on IE (failed)" parallel="classes">
+    <parameter name="browserName" value="ie"/>
+    <classes>
+      <class name="listeners.TestNGFeaturesDemo">
+        <methods>
+          <include name="Test3"/>
+          <include name="Test4"/>
+          <include name="teardown"/>
+          <include name="Test2"/>
+          <include name="Test5"/>
+          <include name="Test1" invocation-numbers="0 1 2"/>
+          <include name="TestSetups"/>
+        </methods>
+      </class> <!-- listeners.TestNGFeaturesDemo -->
+    </classes>
+  </test> <!-- Test on IE (failed) -->
+</suite> <!-- Failed suite [Suite] -->

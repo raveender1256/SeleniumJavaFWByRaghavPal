@@ -1,0 +1,10 @@
+[INFO ] 2020-01-22 12:05:52.156 [main] ExtentReportsTestNGDemo - launched chrome driver
+[INFO ] 2020-01-22 12:06:35.123 [TestNG-test=Test1-2] ExtentReportsTestNGDemo - test log4j 2
+[INFO ] 2020-01-22 12:06:37.204 [TestNG-test=Test1-2] ExtentReportsTestNGDemo - test log4j
+[INFO ] 2020-01-22 12:17:49.347 [main] ExtentReportsTestNGDemo - launched chrome driver- test log4j 1
+[INFO ] 2020-01-22 12:17:52.935 [main] ExtentReportsTestNGDemo - test log4j 2
+[INFO ] 2020-01-22 12:17:59.316 [main] ExtentReportsTestNGDemo - test log4j 3
+ 
+[INFO ] 2020-01-22 13:12:04.975 [main] ExtentReportsTestNGDemo - launched chrome driver- test log4j 1
+[INFO ] 2020-01-22 13:12:43.075 [TestNG-test=Test1-2] ExtentReportsTestNGDemo - test log4j 2
+[INFO ] 2020-01-22 13:12:46.037 [TestNG-test=Test1-2] ExtentReportsTestNGDemo - test log4j 3

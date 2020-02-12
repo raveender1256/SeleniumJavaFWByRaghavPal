@@ -1,0 +1,5 @@
+[INFO ] 2020-01-23 15:42:24.892 [main] ExtentReportsTestNGDemo - launched chrome driver- test log4j 1
+[INFO ] 2020-01-23 15:42:35.205 [main] ExtentReportsTestNGDemo - test log4j 2
+[INFO ] 2020-01-23 15:42:37.820 [main] ExtentReportsTestNGDemo - test log4j 3
+[INFO ] 2020-01-23 15:42:38.778 [main] ExtentReportsTestNGDemo -  closed and Quit the browser  test log4j 4
+[INFO ] 2020-01-23 15:42:39.398 [main] ExtentReportsTestNGDemo -  Done -TestNGDemo class  test log4j 5

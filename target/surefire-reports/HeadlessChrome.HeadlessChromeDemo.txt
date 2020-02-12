@@ -1,0 +1,10 @@
+-------------------------------------------------------------------------------
+Test set: HeadlessChrome.HeadlessChromeDemo
+-------------------------------------------------------------------------------
+Tests run: 3, Failures: 1, Errors: 0, Skipped: 2, Time elapsed: 1.443 s <<< FAILURE! - in HeadlessChrome.HeadlessChromeDemo
+HeadlessChrome.HeadlessChromeDemo.TestSetups  Time elapsed: 0.976 s  <<< FAILURE!
+org.testng.TestNGException: 
+
+Can inject only one of <ITestContext, XmlTest> into a @BeforeTest annotated TestSetups.
+For more information on native dependency injection please refer to http://testng.org/doc/documentation-main.html#native-dependency-injection
+
