@@ -69,6 +69,7 @@
         <version>3.0.0-M4</version>
         <configuration>
 
+<<<<<<< HEAD
         <includes>
         <include>HeadlessChromeDemo.java </include>     
         </includes>
@@ -80,13 +81,35 @@
           </suiteXmlFiles> 
           
           
+=======
+       <includes>
+        <include>HeadlessChromeDemo.java </include>     
+        </includes> 	
+		
+         <!-- <suiteXmlFiles>
+            <suiteXmlFile>${filename}</suiteXmlFile>
+           <!-- <suiteXmlFile>${filename}</suiteXmlFile> -->
+	   <!-- <suiteXmlFile>testng6.xml</suiteXmlFile> -->
+          </suiteXmlFiles> -->
+	      
+>>>>>>> 03db75c26db3bb21b46e44d7ffae81d74e90152a
         </configuration>
-      </plugin>
-   
+      </plugin>  
 </plugins>
+<<<<<<< HEAD
 	
 	</build>
 </project>
 
 
 
+=======
+	</build>	
+</project>
+<<<<<<< HEAD
+=======
+</project>
+>>>>>>> 03db75c26db3bb21b46e44d7ffae81d74e90152a
+=======
+
+>>>>>>> 57c3e92466915038bc57731ebb9d649f1eeb253b
